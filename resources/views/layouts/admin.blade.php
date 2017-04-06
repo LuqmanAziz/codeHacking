@@ -88,18 +88,20 @@
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>All Users<span class="fa arrow"></span></a>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Create Users<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="panels-wells.html">All Users</a>
-                            </li>
-                            <li>
-                                <a href="buttons.html">Create User</a>
-                            </li>
-                        </ul>
+                        <a class="well"></a>
+                        {{--<a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>--}}
+                        <a href="{{ route('admin.users.index') }}"><i class="fa fa-wrench fa-fw"></i>All Users<span class="fa arrow"></span></a>
+                        <a href="{{ route('admin.users.create') }}"><i class="fa fa-wrench fa-fw"></i>Create Users<span class="fa arrow"></span></a>
+                        {{--<ul class="nav nav-second-level">--}}
+                            {{--<li>--}}
+                                {{--<a href="panels-wells.html">All Users</a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a href="buttons.html">Create User</a>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
                         <!-- /.nav-second-level -->
+                        <a class="well"></a>
                     </li>
 
 

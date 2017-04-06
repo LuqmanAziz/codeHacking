@@ -28,7 +28,7 @@
 
     <div class="form-group">
         <label>File:</label>
-        <input type="file" name="file" class="form-control">
+        <input type="file" name="photo_id" class="form-control">
     </div>
 
     <div class="form-group">
