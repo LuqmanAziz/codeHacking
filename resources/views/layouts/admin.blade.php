@@ -89,6 +89,8 @@
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i>All Users<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Create Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="panels-wells.html">All Users</a>
@@ -255,6 +257,8 @@
 <script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/metisMenu.js')}}"></script>
 <script src="{{asset('js/sb-admin-2.js')}}"></script>
+
+@yield('footer')
 
 </body>
 
