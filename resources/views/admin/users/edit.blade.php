@@ -51,8 +51,18 @@
 
 
             <div class="form-group">
-                <input type="submit" value="Create Post" class="btn btn-primary">
+                <input type="submit" value="Create Post" class="btn btn-primary col-sm-6">
             </div>
+
+            {!! Form::close() !!}
+
+
+            {!! Form::open(['method'=>'DELETE','action'=>['AdminUsersController@destroy',$user->id]]) !!}
+
+
+                <div class="form-group">
+                    <input type="submit" value="Delete User" class="btn btn-danger col-sm-6">
+                </div>
 
             {!! Form::close() !!}
 

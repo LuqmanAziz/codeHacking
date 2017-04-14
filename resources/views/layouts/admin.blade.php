@@ -91,7 +91,7 @@
                         <a class="well"></a>
                         {{--<a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>--}}
                         <a href="{{ route('admin.users.index') }}"><i class="fa fa-wrench fa-fw"></i>All Users<span class="fa arrow"></span></a>
-                        <a href="{{ route('admin.users.create') }}"><i class="fa fa-wrench fa-fw"></i>Create Users<span class="fa arrow"></span></a>
+                        <a href="{{ route('admin.users.create') }}"><i class="fa fa-wrench fa-fw"></i>Create User<span class="fa arrow"></span></a>
                         {{--<ul class="nav nav-second-level">--}}
                             {{--<li>--}}
                                 {{--<a href="panels-wells.html">All Users</a>--}}
@@ -107,15 +107,19 @@
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="panels-wells.html">All Posts</a>
-                            </li>
-                            <li>
-                                <a href="buttons.html">Create Post</a>
-                            </li>
-                        </ul>
+
+                        <a href="{{ route('admin.posts.index') }}"><i class="fa fa-wrench fa-fw"></i>All Posts<span class="fa arrow"></span></a>
+                        <a href="{{ route('admin.posts.create') }}"><i class="fa fa-wrench fa-fw"></i>Create Post<span class="fa arrow"></span></a>
+                        <a class="well"></a>
+                        {{--<a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>--}}
+                        {{--<ul class="nav nav-second-level">--}}
+                            {{--<li>--}}
+                                {{--<a href="panels-wells.html">All Posts</a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a href="buttons.html">Create Post</a>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
                         <!-- /.nav-second-level -->
                     </li>
 
